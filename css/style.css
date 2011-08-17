@@ -1,0 +1,135 @@
+form.product_form{
+	margin-bottom:40px;
+}
+form.product_form label{
+	font-weight:bold;
+}
+form.product_form .new-product-form, form.product_form .new_product_detail{
+	margin-bottom:20px;
+}
+form.product_form small{
+	font-size:0.8em;
+}
+#product_title, #product_link{
+	width:98.5%;
+}
+.tradr_product_btn{
+	background:#464646;
+	color:#FFF!important;
+	line-height:1.4em;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border:none;
+	padding:5px;
+}
+.tradr_product_btn:hover{
+	background:#CCC;
+	color:#464646!important;
+	border:solid 1px #464646;
+}
+.tradr-action-btn{
+	padding:10px;
+	margin-right:10px;
+	text-align:right;
+}
+
+#content .wp_themeSkin .mceLayout{
+	border:solid 1px #E2E2E2;
+}
+#content .wp_themeSkin tr td {
+    padding: 0;
+}
+
+.wp_themeSkin tr.mceFirst td.mceToolbar {
+    background: url("../images/ed-bg.gif") repeat-x scroll left top #DFDFDF;
+    border-color: #DFDFDF;
+}
+
+.wp_themeSkin .mceButton {
+    color: #B2B2B2;
+}
+
+#content table.mceToolbar {
+    width: auto;
+    margin: 0 2px 2px;
+}
+
+
+.tagEditor
+{
+	margin: 4px 0;
+	padding: 0;
+}
+
+.tagEditor li
+{
+	display: inline;
+	background-image: url("../images/delete-tag.png");
+	background-color: #E4E4E4;
+	background-position: right center;
+	background-repeat: no-repeat;
+	list-style-type: none;
+	padding: 0 18px 0 6px;
+	margin: 0 4px;	
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.tagEditor li:hover
+{
+	background-color: #eee;
+}
+#tradr_product_errors, #tradr_product_moderation, #tradr_product_notlogged{
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 0.6em;
+	margin: 5px 15px 2px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#tradr_product_errors{
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+#tradr_product_errors p{
+	color:#c00;
+}
+#tradr_product_errors ul li{
+	color:#c00;
+	font-weight:bold;
+}
+#tradr_product_notlogged{
+	background-color: #ffffe0;
+	border-color: #e6db55;
+}
+#tradr_product_notlogged p{
+	padding-top:20px;
+	text-align:center;
+}
+#tradr_product_moderation{
+	background: #dffcd9;
+	border-color: #c4e9bd;
+}
+#tradr_product_moderation p{
+	padding-top:20px;
+	text-align:center;
+}
+table.tradr_image_editor{
+	padding:5px;
+	margin-bottom:10px;
+	border:solid 1px #E2E2E2;
+	width:100%;
+}
+table.tradr_image_editor td{
+	text-align:center;
+}
+table.tradr-media-container{
+	width:100%;
+}
+table.tradr-media-container label{
+	font-weight:bold;
+}
